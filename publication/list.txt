@@ -1,0 +1,92 @@
+@inproceedings{zhao2011examining,
+  title={Examining Social Dynamics for Countering Botnet Attacks},
+  author={Zhao, Ziming and Ahn, Gail-Joon and Hu, Hongxin},
+  booktitle={IEEE Global Telecommunications Conference (GLOBECOM)},
+  pages={1--6},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{zhao2010risk,
+  title={Risk-Aware Response for Mitigating MANET Routing Attacks},
+  author={Zhao, Ziming and Hu, Hongxin and Ahn, Gail-Joon and Wu, Ruoyu},
+  booktitle={IEEE Global Telecommunications Conference (GLOBECOM)},
+  pages={1--6},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{zhao2011automatic,
+  title={Automatic Extraction of Secrets from Malware},
+  author={Zhao, Ziming and Ahn, Gail-Joon and Hu, Hongxin},
+  booktitle={Working Conference on Reverse Engineering (WCRE)},
+  pages={159--168},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{zhao2012risk,
+  title={Risk-Aware Mitigation for MANET Routing Attacks},
+  author={Zhao, Ziming and Hu, Hongxin and Ahn, G and Wu, Ruoyu},
+  journal={IEEE Transactions on Dependable and Secure Computing (TDSC)},
+  volume={9},
+  number={2},
+  pages={250--260},
+  year={2012},
+  publisher={IEEE}
+}
+
+@inproceedings{zhao2012socialimpact,
+  title={SocialImpact: Systematic Analysis of Underground Social Dynamics},
+  author={Zhao, Ziming and Ahn, Gail-Joon and Hu, Hongxin and Mahi, Deepinder},
+  booktitle={European Conference on Research in Computer Security (ESORICS)},
+  pages={877--895},
+  year={2012}
+}
+
+@inproceedings{zhao2013security,
+  title={On the Security of Picture Gesture Authentication},
+  author={Zhao, Ziming and Ahn, Gail-Joon and Seo, Jeong-Jin and Hu, Hongxin},
+  booktitle={22nd USENIX Security Symposium},
+  year={2013},
+  organization={USENIX}
+}
+
+@inproceedings{zhao2013using,
+  title={Using Instruction Sequence Abstraction for Shellcode Detection and Attribution},
+  author={Zhao, Ziming and Ahn, Gail-Joon},
+  booktitle={1st IEEE Conference on Communications and Network Security (CNS)},
+  year={2013}
+}
+
+@inproceedings{jing2014riskmon,
+  title={RiskMon: Continuous and Automated Risk Assessment for Mobile Applications},
+  author={Jing, Yiming and Ahn, Gail-Joon and Zhao, Ziming and Hu, Hongxin},
+  booktitle={ACM Conference on Data and Application Security and Privacy (CODASPY)},
+  year={2014},
+  organization={ACM}
+}
+
+@inproceedings{hu2014towards,
+  title={Towards a Reliable SDN Firewall},
+  author={Hu, Hongxin and Gail-Joon, Ahn and Han, Wonkyu and Zhao, Ziming},
+  booktitle={2014 Open Networking Summit Research Track},
+  year={2014},
+  organization={USENIX}
+}
+
+@inproceedings{hu2014game,
+  title={Game Theoretic Analysis of Multiparty Access Control in Online Social Networks},
+  author={Hu, Hongxin and Ahn, Gail-Joon and Zhao, Ziming and Yang, Dejun},
+  booktitle={ACM Symposium on Access Control Models and Technologies (SACMAT)},
+  year={2014},
+  organization={ACM}
+}
+
+@inproceedings{hu2014flowguard,
+  title={FlowGuard: Building Robust Firewalls for Software-Defined Networks},
+  author={Hu, Hongxin and Han, Wonkyu and Gail-Joon, Ahn and Zhao, Ziming},
+  booktitle={ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking (HotSDN)},
+  year={2014},
+  organization={ACM}
+}
