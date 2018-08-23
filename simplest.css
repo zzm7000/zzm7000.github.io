@@ -13,7 +13,7 @@
     min-width : 60ex;
     padding : 2ex;
     border-width : 3px;
-    border-color : rgb(153,0,51);
+    border-color : #513127;
     border-style : solid;
     margin-top: 0;
     margin-bottom: 0;
@@ -58,37 +58,37 @@ h2, h3 {
 }
 
 .publications h3 {
-  background: #FFB310;
-  border: 2px solid #FFB310;
+  background: #F36E21;
+  border: 2px solid #F36E21;
 }
 
 a.toggle_link  {
 	text-decoration: none;
 	font-family:'Gill Sans MT';
-	color: rgb(153,0,51);
+	color: #513127;
 	font-size: 110%;
-} 
+}
 
 .anchors a{
 	text-decoration: none;
 	font-family:'Gill Sans MT';
-	color: rgb(153,0,51);
+	color: #513127;
 	font-size: 110%;
-} 
+}
 
 p, li {
 	font-family:'Gill Sans MT';
 	font-size: 110%;
 }
 
-.paper_title { 
-	color: rgb(153,0,51);
+.paper_title {
+	color: #513127;
 }
 
-.self { 
+.self {
 	font-style: italic;
 }
 
-.abbr { 
-	color: rgb(153,0,51);
+.abbr {
+	color: #513127;
 }
