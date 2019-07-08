@@ -77,7 +77,7 @@ function displayPublications(lis, type, ordered_list, generate_anchors) {
 			
 			// Generate anchors in div.anchors
 			if (generate_anchors)
-				$("div.anchors").append("<a href='#" + validClassName + "'>" + current + "</a>&nbsp;|&nbsp;");
+				$("div.anchors").append("<a href='#" + validClassName + "'>" + current + "</a> | ");
         }
 
         $("." + validClassName).html($("." + validClassName).html() + lis[0].outerHTML);
