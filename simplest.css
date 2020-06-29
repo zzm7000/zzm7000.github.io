@@ -65,14 +65,14 @@ h2, h3 {
 a.toggle_link  {
 	text-decoration: none;
 	font-family:'Gill Sans MT';
-	color: #513127;
+	color: #002f56;
 	font-size: 110%;
 }
 
 .anchors a{
 	text-decoration: none;
 	font-family:'Gill Sans MT';
-	color: #513127;
+	color: #002f56;
 	font-size: 110%;
 }
 
@@ -82,7 +82,7 @@ p, li {
 }
 
 .paper_title {
-	color: #513127;
+	color: #002f56;
 }
 
 .self {
@@ -90,5 +90,5 @@ p, li {
 }
 
 .abbr {
-	color: #513127;
+	color: #002f56;
 }
