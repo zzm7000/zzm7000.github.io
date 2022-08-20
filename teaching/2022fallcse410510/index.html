@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>UB CSE 410/510 Software Security</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="class.css" media="screen">
+</head>
+
+     
+
+<body>
+
+<div class="header">
+  <h1>UB CSE 410/510 Software Security</h1>
+  <h2>Fall 2022, Monday 5:00PM - 7:50PM, Nsc 220</h2>
+</div>
+
+
+<div class="main">
+
+<h2>General Information </h2>
+<h3>Instructor </h3>
+  <dd>Dr. Ziming Zhao</dd>
+  <dd>E-mail: zimingzh@buffalo.edu</dd>
+  <dd>Homepage: <a href="https://zzm7000.github.io/">https://zzm7000.github.io/</a></dd>
+  <dd>Fall 2022; Monday 5:00 PM - 7:50 PM; Nsc 220</dd>  
+  <dd>Office hours will be online: Monday 3:30 PM - 4:30 PM or by appointment</dd>
+  <dd>You will need to log in to UB Zoom before you join the office hours at <a href="https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09">https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09</a></dd>
+  <dd>The lecture recordings will be posted online after each class.</dd>
+
+<h3>Teaching Assistant </h3>
+  <dd>Md. Armanuzzaman Tomal</dd>
+  <dd>E-mail: mdarmanu@buffalo.edu</dd>  
+  <dd><a href="https://tomal-kuet.github.io/armanuzzaman/">Homepage</a></dd>
+  <dd>Office hours will be online: Friday 3:30 PM - 4:30 PM or by appointment</dd>
+  <dd>You will need to log in to UB Zoom before you join the office hours at <a href="https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09">https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09</a></dd>
+
+<h2>Overview</h2>
+  <dd style="text-align: justify">
+    <p style="text-align: justify">This course is designed to provide students with good understanding of the theories, principles, techniques and tools used for software and system hacking and hardening. Students will study, in-depth, binary reverse engineering, vulnerability classes, vulnerability analysis, exploit and shellcode development, defensive solutions, etc. to understand how to crack and protect native software. In particular, this class covers offensive techniques including stack-based buffer overflow, heap security, format string vulnerability, return-oriented programming, etc. This class also covers defensive techniques including canary, shadow stack, address space layout randomization, control-flow integrity, etc. A key part of studying security is putting skills to the test in practice. Hacking challenges known as Capture The Flag (CTF) competitions are a great way to do this. In this class the progress of students are evaluated by lab assignment and in-class Capture-The-Flag (CTF) competitions.</p>
+    <p style="text-align: justify">Downloads: <a href="syllabus.pdf">Course Syllabus</a></p>
+    <!-- <p style="text-align: justify">Downloads: <a href="https://www.dropbox.com/s/zd6jr4u3xqtf0vm/CSE610VM.zip?dl=0">Virtual Machine</a></p> -->
+  </dd>
+
+  <h2>Tentative Schedule </h2>
+  <center>
+  </center>
+  <table border="1">
+    <tbody>
+      <tr> 
+        <th width="230"><font color="#000099">Date</font></th>
+        <th width="525"><font color="#000099">Topic</font></th>
+        <th width="235"><font color="#000099">Notes</font></th>
+      </tr>
+
+<!--        <td>&nbsp;Overview and Background Knowledge <a href="slides/.pdf">Slides</a> <a href="code/.zip">Code</a> <a href="hw/.zip">HW1</a> <a href="">Video UB Cloud</a> <a href="">YouTube</a> <a href="">Youku</a></td> -->
+
+      <tr> 
+        <td>Week-1 Class-1 8/29</td>
+        <td>Overview and Background Knowledge <a href="./slides/W1L1.pdf">Notes</a> <a href="">Video</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-2 Class-1 9/5</td>
+        <td>=== labor Day Observed - No class ===</td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-3 Class-1 9/12</td> 
+        <td>Buffer overflow <a href="./slides/W3L1.pdf">Notes</a> <a href="https://youtu.be/k7TuUXNfhp4">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-4 Class-1 9/19</td>
+        <td>Buffer overflow <a href="./slides/W4L1.pdf">Notes</a> <a href="https://youtu.be/YauKg4WcN70">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-5 Class-1 9/26</td>
+        <td>Buffer overflow (Frame Pointer Attack) <a href="./slides/W5L1.pdf">Notes</a> <a href="https://youtu.be/bDGn9G864Bw">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-6 Class-1 10/3</td>
+        <td>Buffer overflow (Shadow Stack, Canary) <a href="./slides/W6L1.pdf">Notes</a> <a href="https://youtu.be/3euPhjkqqgU">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-1 10/10</td>
+        <td> <a href="./hw/midterm1.docx">Midterm-1</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-8 Class-1 10/17</td>
+        <td>*** Midterm Exam and CTF***</td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-9 Class-1 10/24</td>
+        <td>ASLR and Seccomp <a href="./slides/W9L1.pdf">Notes</a> <a href="https://youtu.be/rixY_grOVPU">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-10 Class-1 10/31</td>
+        <td>Format String Vulnerability <a href="./slides/W10L1.pdf">Notes</a> <a href="https://youtu.be/bsu2R164A5g">Video</a> </td> 
+        <td>&nbsp;</td>
+      </tr>
+     
+      <tr> 
+        <td>Week-11 Class-1 11/7</td>
+        <td>Return-oriented Programming <a href="./slides/W11L1.pdf">Notes</a> <a href="https://youtu.be/jOK5oey-lug">Video</a> </td> 
+        <td>&nbsp;</td> 
+      </tr>
+      
+      <tr> 
+        <td>Week-12 Class-1 11/14</td> 
+        <td>Return-oriented Programming <a href="./slides/W12L1.pdf">Notes</a> <a href="https://youtu.be/8i5-ABki5VI">Video</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-1 11/21</td>
+        <td>Heap Exploitation <a href="./slides/W13L1.pdf">Notes</a> <a href="https://youtu.be/gMQY1fhVNfQ">Video</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-14 Class-1 11/28</td>
+        <td>Meltdown <a href="./slides/W14L1.pdf">Notes</a> <a href="https://www.youtube.com/watch?v=w_f4kpHLLH8">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-15 Class-1 12/5</td>
+        <td>Beyond 410 <a href="./slides/W15L1.pdf">Notes</a> <a href="https://youtu.be/t_aai9v7leY">Video</a> </td> 
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Final CTF 12/14 7:15pm-10:15pm Nsc 218</td>
+        <td><a href="./hw/">FinalCTF</a></td>
+        <td>&nbsp;</td>
+      </tr>             
+    </tbody>
+  </table>
+
+<h2>Resources</h2>
+  <p><a href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">GDB Cheat Sheet</a> <a href="https://tmuxcheatsheet.com/">Tmux Cheet Sheet</a> <a href="https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf">x64 Cheat Sheet</a> <a href="https://trailofbits.github.io/ctf/vulnerabilities/references/X86_Win32_Reverse_Engineering_Cheat_Sheet.pdf">x32 Cheat Sheet</a> <a href="https://pbs.twimg.com/media/B6wdSlECIAAPO4B?format=png&name=4096x4096">x32 Cheat Sheet</a> <a href="https://github.com/oowekyala/arm-cheatsheet/blob/master/arm-cheatsheet.pdf">ARM Cheat Sheet</a> <a href="https://azeria-labs.com/assembly-basics-cheatsheet/">ARM Cheat Sheet 32-bit</a> </p>
+
+</div>
+
+</body></html>
