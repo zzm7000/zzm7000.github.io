@@ -1,0 +1,27 @@
+The template has 100 words. Your review needs to be 600 words at least excluding the words in the template.
+
+Paper Title:
+
+Reviewer's Name:
+
+Summarize the paper in your own language: the main ideas, the approach to the solution.
+
+
+Contributions (What are the major issues addressed in the paper? Do you consider them important? Comment on the novelty, creativity, and technical depth of the paper.)
+
+
+What are the paper's strengths?
+ 
+
+What are the paper's weaknesses?
+ 
+
+Comment on the paper's evaluation methodology.
+ 
+
+Are there any issues/directions this work left open? List a few possible extensions of this work.
+ 
+
+Any other comments/questions.
+
+

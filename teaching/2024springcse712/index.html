@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>UB CSE 703 Seminar: Advanced Software Security</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="class.css" media="screen">
+</head>
+
+     
+
+<body>
+
+<div class="header">
+  <h1>UB CSE 712 Seminar: Microcontroller Systems Security</h1>
+  <h2>Spring 2021 2/1/2024 - 5/10/2024; Monday, 5:00 PM - 7:50 PM; Online</h2>
+</div>
+
+
+<div class="main">
+
+<h2>General Information </h2>
+<h3>Instructor </h3>
+  <dd>Dr. Ziming Zhao</dd>
+  <dd>E-mail: zimingzh@buffalo.edu</dd>
+  <dd>Homepage: <a href="https://zzm7000.github.io/">https://zzm7000.github.io/</a></dd>
+  <dd>Office: 338B Davis Hall</dd>
+  <dd>Office Hours: By Appointment</dd>
+  <dd>Monday, 12:50 PM - 2:55 PM; Online</dd>
+  <dd>This is a seminar class with students presentations. Lecture recordings will be available for UB students.</dd>
+
+<h2>Overview</h2>
+  <dd style="text-align: justify">
+    <p style="text-align: justify">This seminar course is designed to provide students with good understandings of the theories, principles, techniques and tools used for software security. 
+Students will study state-of-the-art vulnerability analysis techniques and tools. 
+In particular, this class covers many static and dynamic analysis techniques, including fuzzing, taint analysis, symbolic execution, etc. 
+Depending on how many credits a student takes for this class, the coursework will consist of: paper reading, paper presentation, paper reviewing, labs and course projects.</p>
+
+    <p style="text-align: justify">The seminar is suitable for students who have strong interest in software security and intent to pursue a career in the area, e.g., PhD students already working in security or MS students interested in pursuing a PhD or doing research in the field (in the form of independent studies and/or MS Thesis). One of the goals of this seminar is to identify, by the end of the semester, a set of open research problems on which students can work during the next semester, e.g., in the form of independent studies or thesis.</p>
+
+    <!-- <p style="text-align: justify">Downloads: <a href="syllabus.pdf">Course Syllabus</a></p> -->
+    <!-- <p style="text-align: justify">Downloads: <a href="https://www.dropbox.com/s/7pt4yd9rkn98rc6/CSE610VM.zip?dl=0">Virtual Machine</a></p> -->
+  </dd>
+
+  <h2>Tentative Schedule </h2>
+  <center>
+  </center>
+  <table border="1">
+    <tbody>
+      <tr> 
+        <th width="90"><font color="#000099">Date</font></th>
+        <th width="220"><font color="#000099">Topic</font></th>
+        <th width="600"><font color="#000099">Paper Presentations</font></th>
+        <th width="600"><font color="#000099">Reading Assignment</font></th>
+      </tr>
+
+      <tr> 
+        <td>Week-1 2/1</td>
+        <td>Microcontrollers and ARM Cortex-M <a href="./slides/W1L1.pdf">Notes</a> <a href="">Recording</a></td>
+        <td>&nbsp;NA</td>
+        <td><ul>
+        		<li> <a href="./papers/">Paper</a>.</li>
+        	</ul>
+    	</td>       
+      </tr>
+
+      <tr> 
+        <td>Week-2 2/8</td>
+        <td>Arithmetic and Logic Instructions <a href="./slides/W2L1.pdf">Notes</a> <a href="">Recording</a></td>
+        <td>&nbsp;NA</td>
+        <td><ul>
+        		<li>SoK: Sanitizing for Security. Oakland 2019. <a href="./papers/song2019.pdf">Paper</a>.</li>
+        	</ul>
+    	</td>      
+      </tr>
+      <tr> 
+        <td>Week-3 2/15</td>
+        <td>Load and Store Instructions <a href="./slides/W3L1.pdf">Notes</a> <a href="https://buffalo.zoom.us/rec/share/zhuVyQLSQV0ZrwWDVi2FzUJVsRaa7z00j-XUIp_4klkoFiIIZALaj3cuiETncR8x.vZ5R3Ykoe1peYEVh">Recording</a></td>
+        <td><ul>
+        		<li>. <a href="./papers/atc12-final39.pdf">Paper</a>. Presenter: <strong>Xi Tan</strong></li>
+        		<li>. <a href="./papers/ndss18-chen.pdf">Paper</a>. Presenter: <strong>Gursimran Singh</strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+	        	<li>Fuzzing: Hack, art, and science. CACM 2020. <a href="./papers/3363824.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>   	
+      </tr>
+      <tr> 
+        <td>Week-4 2/22</td>
+        <td>Branch and Conditional Execution</td>
+        <td><ul>
+            <li>FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation. USENIX 2019. <a href="./papers/sec19-zheng_0.pdf">Paper</a>. Presenter: <strong>Md Armanuzzaman</strong>
+        		<li>HFL: Hybrid fuzzing on the Linux kernel. NDSS 2020. <a href="./papers/24018-paper.pdf">Paper</a>. Presenter: <strong>Jacquelyn Dufresne</strong></li>
+        		</li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>The art, science, and engineering of fuzzing: A survey. TSE 2019. <a href="./papers/1812.00140.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-5 3/1</td>
+        <td>Structured Programming and Subroutines</td>
+        <td><ul>
+        		<li>T-Fuzz: Fuzzing by Program Transformation. Oakland 2018. <a href="./papers/08418632.pdf">Paper</a>. Presenter: <strong>Charles Wiechec</strong></li>
+        		<li>Taint-based Directed Whitebox Fuzzing. ICSE 2009. <a href="./papers/icse09.pdf">Paper</a>. Presenter: <strong>Anjie Sun</strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>All you ever wanted to know about dynamic taint analysis and forward
+  symbolic execution (but might have been afraid to ask). Oakland 2010. <a href="./papers/05504796.pdf">Paper</a>.</li>
+        	</ul>
+    	</td> 
+      </tr>      
+      <tr> 
+        <td>Week-6 3/8</td>
+        <td>64-bit data processing</td>
+        <td><ul>
+        		<li>Dynamic taint analysis for automatic detection, analysis, and signature generation of exploits on commodity software. NDSS 2005. <a href="./papers/10.1.1.587.3336.pdf">Paper</a>. Presenter: <strong>Malav Dharmendrakumar Vyas</strong></li>
+        		<li>TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones. OSDI 2010. <a href="./papers/2619091.pdf">Paper</a>. Presenter: <strong></strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>Sok: Eternal war in memory. Oakland 2013. <a href="./papers/Oakland13-SoK-CR.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-7 3/15</td>
+        <td>Interrupts</td>
+        <td><ul>
+        		<li>FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps. PLDI 2014. <a href="./papers/2666356.2594299.pdf">Paper</a>. Presenter: <strong></strong></li>
+        		<li>TaintScope: A checksum-aware directed fuzzing tool for automatic software vulnerability detection. Oakland 2010. <a href="./papers/05504701.pdf">Paper</a>. Presenter: <strong></strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>Symbolic execution for software testing three decades later. CACM 2013. <a href="./papers/Symbolic execution for software testing three decades later.CACM2013.pdf">Paper</a>.</li>
+        	</ul>
+    	</td>        
+      </tr>
+      <tr> 
+        <td>Week-8 3/22</td>
+        <td>SysTick</td>
+        <td><ul>
+        		<li>KLEE: unassisted and automatic generation of high-coverage tests for complex systems programs. OSDI 2008. <a href="./papers/cadar.pdf">Paper</a>. Presenter: <strong></strong></li>
+        		<li>Driller: Augmenting fuzzing through selective symbolic execution. NDSS 2016. <a href="./papers/2016 - NDSS - Driller.pdf">Paper</a>. Presenter: <strong>Ariel Shevah</strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>SoK: (state of) the art of war: Offensive techniques in binary analysis. Oakland 2016. <a href="./papers/07546500.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-9 3/29</td>
+        <td>Multitasking</td>
+        <td><ul>
+        		<li>Intscope: Automatically detecting integer overflow vulnerability in x86 binary using symbolic execution. NDSS 2009. <a href="./papers/wang.pdf">Paper</a>. Presenter: <strong>Gursimran Singh</strong></li>
+        		<li>Symbolic execution with SymCC: Don't interpret, compile!. USENIX 2020. <a href="./papers/sec20-poeplau.pdf">Paper</a>. Presenter: <strong>Xi Tan</strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>SMT Solvers for Software Security. WOOT 2012. <a href="./papers/woot12-final26.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-10 4/5</td>
+        <td>General Purpose I/O (GPIO) and General Purpose Timers</td>
+        <td><ul>
+        		<li>EXE: Automatically Generating Inputs of Death. CCS 2006. <a href="./papers/1455518.1455522.pdf">Paper</a>. Presenter: <strong>Jacquelyn Dufresne</strong></li>
+            <li>AEG: Automatic Exploit Generation. NDSS 2011. <a href="./papers/Avg.pdf">Paper</a>. Presenter: <strong>Md Armanuzzaman</strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>Challenges in Firmware Re-Hosting, Emulation, and Analysis. CSUR 2021. <a href="./papers/3423167.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-11 4/12</td>
+        <td>Real-time Clock</td>
+        <td><ul>
+        		<li>FIE on Firmware: Finding Vulnerabilities in Embedded Systems Using Symbolic Execution. USENIX 2013. <a href="./papers/sec13-paper_davidson.pdf">Paper</a>. Presenter: <strong>Malav Dharmendrakumar Vyas</strong></li>
+            <li>FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities. USENIX 2018. <a href="./papers/sec18-wu_0.pdf">Paper</a>. Presenter: <strong></strong></li>
+        	</ul>
+    	</td>
+        <td><ul>
+        		<li>Automatic Exploit Generation. CACM 2014. <a href="./papers/2560217.2560219.pdf">Paper</a>. </li>
+        	</ul>
+    	</td>  
+      </tr>
+            <tr> 
+        <td>Week-12 4/19</td>
+        <td>Direct Memory Access (DMA)</td>
+        <td><ul>
+            <li>Unleashing MAYHEM on Binary Code. Oakland 2012. <a href="./papers/06234425.pdf">Paper</a>. Presenter: <strong>Anjie Sun</strong></li>          
+        		<li>KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities. USENIX 2020. <a href="./papers/sec20-chen-weiteng.pdf">Paper</a>. Presenter: <strong></strong></li>    
+        	</ul>
+    	</td>
+        <td>
+    	</td> 
+      </tr>
+      <tr> 
+        <td>Week-13 4/26</td> 
+        <td>Serial Communication protocols</td>
+        <td><ul>
+        		<li>CP-Miner: A tool for finding copy-paste and related bugs in operating system code. OSDI 2004. <a href="./papers/li_z.pdf">Paper</a>. Presenter: <strong>Charles Wiechec</strong></li>
+        		<li>discovRE: Efficient Cross-Architecture Identification of Bugs in Binary Code. NDSS 2017. <a href="./papers/discovRE.pdf">Paper</a>. Presenter: <strong></strong></li>
+        	</ul>
+    	</td>
+        <td>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-14 5/3</td>
+        <td>Other Topics</td>
+        <td><ul>
+ 		       	<li>VulPecker: an automated vulnerability detection system based on code similarity analysis. AsiaCCS 2016. <a href="./papers/2991079.2991102.pdf">Paper</a>. Presenter: <strong>Ariel Shevah</strong></li>
+        		<li>VulDeePecker: A Deep Learning-Based System for Vulnerability Detection. NDSS 2018. <a href="./papers/1801.01681.pdf">Paper</a>. Presenter: <strong></strong></li>
+        	</ul>
+    	</td>
+        <td>
+    	</td>  
+      </tr>
+      <tr> 
+        <td>Week-15 5/10</td>
+        <td>&nbsp;Course Project Presentations</td>
+        <td>&nbsp;</td>     
+        <td>&nbsp;</td>         
+      </tr>
+    </tbody>
+  </table>
+
+<h2>Course Structure</h2>
+
+  <dd style="text-align: justify">
+    <p style="text-align: justify">We will discuss several topics in this class. Each lecture may consist of two parts. In the first part, the instructor will discuss some basic knowledge, show demos of existing tools (30 mins). In the second part (1.5 hours), we will discuss 2 papers (one student will be presenting - 30 mins / leading the discussion - 15 mins).</p>
+
+    <p style="text-align: justify">A list of papers from top security, system or software engineering conferences (IEEE Security and Privacy aka. Oakland, USENIX Security, ACM CCS, NDSS, OSDI, SOSP, PLDI, ICSE, etc.) are provided for presentations under the "Paper Presentations" column. Usualy, we will have 2 presentations each week. Each student will present 2 papers throughout the semester. Only the presenter is required to read the papers, but it is highly recommended that everyone reads all the papers.</p>
+
+    <p>submit reviews for a subset of them, and participate in discussions in class.</p>
+
+    <p style="text-align: justify">One paper for each topic will be listed as "Reading Assignment". All students are required to read all the papers in this column. These papers are mostly survey, SoK, or managzine papers from top venues (Oakland, CACM, TSE, etc.).</p>
+  </dd>
+
+<h2>Assignments</h2>
+
+  <dd style="text-align: justify">
+    <p style="text-align: justify">The course includes the following assignments:</p>
+
+	    <ol>
+			<li><p style="text-align: justify">Paper reading. Please first read <a href="./papers/HowtoReadPaper.pdf">"How to Read a Paper"</a> by S. Keshav.</p></li>
+
+			<li><p style="text-align: justify">Class presentations: Each student will present 2 research papers throughout the semester. To better prepare for the presentation, you are required to do the following:</p></li>
+
+				<ol>
+					<li>Email me your answers to the talk preparation questions 3 days before the presentation.</li>
+					<li>Email me your slides 3 days before the presentation.</li>
+					<p>You can find a set of recommendations on how to give a good presentation <a href="./guidelines_presentation.html">here</a>.</p>
+				</ol>
+
+			<li><p style="text-align: justify">Paper reviews: you will write reviews for 3 papers (you will choose which ones). The template of a review can be download <a href="./Review_StudentName_SubNo.txt">here</a>. You can find a set of recommendations on how to write a good reviews <a href="https://homes.cs.washington.edu/~mernst/advice/meier-paper.review.html"> here</a> and some high-level guidelines <a href="./guidelines_review.html">here</a>.</p></li>
+
+			<li><p style="text-align: justify">Course Project: 3-credit student will participate in a course project and give a presentation on the last class.</p></li>
+
+			<li><p style="text-align: justify">Homework: students will finish some homework.</p></li>
+
+  </dd>
+
+<h2>Resources</h2>
+  <p></p>
+
+</div>
+
+</body></html>

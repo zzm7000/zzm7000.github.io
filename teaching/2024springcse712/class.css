@@ -1,0 +1,23 @@
+
+
+.header h1, .header h2 {
+text-align:center;
+font-weight:bold;
+}
+
+
+.main h2 {
+color:#ffffff;
+background-color:#005BBB;
+
+}
+
+table
+{
+border-collapse:collapse;
+}
+table,th, td
+{
+border: 1px solid black;
+}
+
