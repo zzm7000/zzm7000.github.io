@@ -61,15 +61,19 @@ function displayPublications(lis, type, ordered_list, generate_anchors) {
 
         current = getAttributeByLi(lis[0], type);
 
+	// Rank by publication date
         if (type == "data-time") {
             current = Math.floor(current / 10000);
             current = current.toString();
         }
+        
+        // Ranked by topic
+        //if (type )
 
         if (pre.localeCompare(current) != 0) {
 		
             validClassName = current.replace(/ /g, "");
-            validClassName = validClassName.replace(/[\&:\\\{\}\*\+\$\^\.\|\?\+\(\)\[\]!@#%]/g, "");
+            validClassName = validClassName.replace(/[\,\&:\\\{\}\*\+\$\^\.\|\?\+\(\)\[\]!@#%]/g, "");
 			
 			// Generate <h3><a> and <ul> in div.publications
             $("div.publications").append("<h3>" + (generate_anchors ? "<a name='" + validClassName + "'>" : "") + current + (generate_anchors ? "</a>" : "") + "</h3>" + 
