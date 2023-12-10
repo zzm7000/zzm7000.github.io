@@ -1,0 +1,24 @@
+Final CTF Rules:
+
+(1) The CTF will take place on 12/13 Wed from 7:15 PM to 10:45 PM (no extensions) in Davis 101.
+
+(2) There will be four challenges in the Final CTF. Challenges will be released at 7:15 PM. There challenges are one format string vulnerability (easy), one rop 64 bit (medium/hard; source code provided; Hint: use a "pop rsp ; ret" to pivot the stack), one reverse engineering (easy), one heap exploitation (easy/medium; source code provided)
+
+(3) Download the Word document from https://zzm7000.github.io/teaching/2023fallcse410518/ctf/final.docx and submit your document to UBLearns.
+
+(4) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
+
+(5) The first person to capture each flag receives a 10-point ‘first blood’ bonus.
+
+(5) Seats will be randomly assigned, and the seating plan will be released on UBLearns and Slack 20 minutes before the exam.
+
+(6) You must bring a valid photo ID, such as your UB ID or government ID, to the exam for verification purposes.
+
+----
+You
+----
+
+The final is 3.5 hours. And there will be no extension. Please have a countdown on the screen and remind them at least in 30 mins, 10 mins, and 2mins.
+Tomal, please prepare for a random sitting and release 15 mins before the final. The final will be at Davis 101!!
+Tomal, please print out a roster and sitting arrangements. In the final, check each one's ID and mark on the sitting arrangement.
+Everyone else please go around the room to help and proctor.
