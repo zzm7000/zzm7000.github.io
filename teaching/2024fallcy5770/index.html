@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>NEU CY 5770 Software Vulnerabilities and Security</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="class.css" media="screen">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>NEU CY 5770 Software Vulnerabilities and Security</h1>
+  <h2>Fall 2024, T 11:45 am - 1:25 pm, R 2:50 pm - 4:30 pm, Robinson Hall 109</h2>
+</div>
+
+
+<div class="main">
+
+<h2>General Information </h2>
+<h3>Instructor </h3>
+  <dd>Dr. Ziming Zhao</dd>
+  <dd>E-mail: z.zhao@northeastern.edu</dd>
+  <dd>Homepage: <a href="https://zzm7000.github.io/">https://zzm7000.github.io/</a></dd>
+  <dd>Fall 2024, T 11:45 am - 1:25 pm, R 2:50 pm - 4:30 pm</dd>  
+  <dd>Office hours will be online: Monday 3:00 PM - 4:30 PM and Friday 3:30 PM - 4:30 PM or by appointment</dd>
+  <dd>338B or Zoom at <a href="https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09">https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09</a></dd>
+  <dd>The lecture recordings will be posted online after each class.</dd>
+
+<!-- 
+<h3>Teaching Assistant </h3>
+  <dd>Md. Armanuzzaman Tomal</dd>
+  <dd>E-mail: mdarmanu@buffalo.edu</dd>  
+  <dd><a href="https://tomal-kuet.github.io/armanuzzaman/">Homepage</a></dd>
+  <dd>Office hours will be online: Thursday 3:30 PM - 4:30 PM or by appointment</dd>
+  <dd>You will need to log in to UB Zoom before you join the office hours at <a href="https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09">https://buffalo.zoom.us/j/95299258797?pwd=QlBhbjJIUlM5WmlETmFtOE5qT1Z5dz09</a></dd> 
+-->
+
+<h2>Overview</h2>
+  <dd style="text-align: justify">
+    <p style="text-align: justify">This course is designed to provide students with good understanding of the theories, principles, techniques and tools used for software and system hacking and hardening. Students will study, in-depth, binary reverse engineering, vulnerability classes, vulnerability analysis, exploit and shellcode development, defensive solutions, etc. to understand how to crack and protect native software. In particular, this class covers offensive techniques including stack-based buffer overflow, heap security, format string vulnerability, return-oriented programming, etc. This class also covers defensive techniques including canary, shadow stack, address space layout randomization, control-flow integrity, etc. A key part of studying security is putting skills to the test in practice. Hacking challenges known as Capture The Flag (CTF) competitions are a great way to do this. In this class the progress of students are evaluated by lab assignment and in-class Capture-The-Flag (CTF) competitions.</p>
+    <p style="text-align: justify">Downloads: <a href="syllabus.pdf">Course Syllabus</a></p>
+    <!-- <p style="text-align: justify">Downloads: <a href="https://www.dropbox.com/s/zd6jr4u3xqtf0vm/CSE610VM.zip?dl=0">Virtual Machine</a></p> -->
+  </dd>
+
+  <h2>Tentative Schedule </h2>
+  <center>
+  </center>
+  <table border="1">
+    <tbody>
+      <tr> 
+        <th width="330"><font color="#000099">Date</font></th>
+        <th width="525"><font color="#000099">Topic</font></th>
+        <th width="235"><font color="#000099">Dues</font></th>
+      </tr>
+
+<!--        <td>&nbsp;Overview and Background Knowledge <a href="slides/.pdf">Slides</a> <a href="code/.zip">Code</a> <a href="hw/.zip">HW1</a> <a href="">Video UB Cloud</a> <a href="">YouTube</a> <a href="">Youku</a></td> -->
+
+      <tr> 
+        <td>Week-1 Class-1 9/5</td>
+        <td>Overview and Background Knowledge <a href="./slides/W1L1.pdf">Notes</a> <a href="./hw/hw1.docx">Hw</a> <a href="https://youtu.be/pjF2vg5Bf5Y">Video</a> </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-2 Class-1 9/10</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-2 Class-1 9/12</td>
+        <td></td>
+        <td></td>
+      </tr>      
+
+      <tr> 
+        <td>Week-3 Class-1 9/17</td> 
+        <td>Background and Buffer Overflow <a href="./slides/W3L1.pdf">Notes</a> <a href="./hw/hw2.docx">Hw</a> <a href="https://youtu.be/WgCycH3k-oQ">Video</a></td>
+        <td>Hw-1</td>
+      </tr>
+
+      <tr> 
+        <td>Week-3 Class-1 9/19</td> 
+        <td>Background and Buffer Overflow <a href="./slides/W3L1.pdf">Notes</a> <a href="./hw/hw2.docx">Hw</a> <a href="https://youtu.be/WgCycH3k-oQ">Video</a></td>
+        <td>Hw-1</td>
+      </tr>
+
+      <tr> 
+        <td>Week-4 Class-1 9/24</td>
+        <td>Buffer Overflow <a href="./slides/W4L1.pdf">Notes</a> <a href="./hw/hw3.docx">Hw</a> <a href="https://youtu.be/72pmfO0WYNc">Video</a></td>
+        <td>Hw-2</td>
+      </tr>
+
+      <tr> 
+        <td>Week-4 Class-1 9/26</td>
+        <td>Buffer Overflow <a href="./slides/W4L1.pdf">Notes</a> <a href="./hw/hw3.docx">Hw</a> <a href="https://youtu.be/72pmfO0WYNc">Video</a></td>
+        <td>Hw-2</td>
+      </tr>      
+
+      <tr> 
+        <td>Week-5 Class-1 10/1</td>
+        <td>Buffer Overflow <a href="./slides/W5L1.pdf">Notes</a> <a href="./hw/hw4.docx">Hw</a> <a href="https://youtu.be/jpDvEzPcq_s">Video</a></td>
+        <td>Hw-3</td>
+      </tr>
+
+      <tr> 
+        <td>Week-5 Class-1 10/3</td>
+        <td>Buffer Overflow <a href="./slides/W5L1.pdf">Notes</a> <a href="./hw/hw4.docx">Hw</a> <a href="https://youtu.be/jpDvEzPcq_s">Video</a></td>
+        <td>Hw-3</td>
+      </tr>
+
+      <tr> 
+        <td>Week-6 Class-1 10/8</td>
+        <td>Buffer Overflow (Frame pointer and defense) <a href="./slides/W6L1.pdf">Notes</a> <a href="./hw/hw5.docx">Hw</a> <a href="https://youtu.be/_ZGuk5C0NAk">Video</a></td>
+        <td>Hw-4</td>
+      </tr>
+
+      <tr> 
+        <td>Week-6 Class-1 10/10</td>
+        <td>Buffer Overflow (Frame pointer and defense) <a href="./slides/W6L1.pdf">Notes</a> <a href="./hw/hw5.docx">Hw</a> <a href="https://youtu.be/_ZGuk5C0NAk">Video</a></td>
+        <td>Hw-4</td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-1 10/15</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-1 10/17</td>
+        <td></td>
+        <td></td>
+      </tr>      
+
+      <tr> 
+        <td>Week-8 Class-1 10/22</td>
+        <td>Shadow Stack, Stack Canaries <a href="./slides/W8L1.pdf">Notes</a> <a href="./hw/hw6.docx">Hw</a> <a href="https://youtu.be/-_RBdP5FPQY">Video</a></td>
+        <td>Hw-5</td>
+      </tr>
+
+      <tr> 
+        <td>Week-8 Class-1 10/24</td>
+        <td>Shadow Stack, Stack Canaries <a href="./slides/W8L1.pdf">Notes</a> <a href="./hw/hw6.docx">Hw</a> <a href="https://youtu.be/-_RBdP5FPQY">Video</a></td>
+        <td>Hw-5</td>
+      </tr>
+
+      <tr> 
+        <td>Week-9 Class-1 10/29</td>
+        <td>*** Midterm CTF*** <a href="./ctf/midterm.docx">Midterm</a> <a href="./hw/hw7.docx">Hw</a> </td>
+        <td>Hw-6</td>
+      </tr>
+
+      <tr> 
+        <td>Week-9 Class-1 10/31</td>
+        <td>*** Midterm CTF*** <a href="./ctf/midterm.docx">Midterm</a> <a href="./hw/hw7.docx">Hw</a> </td>
+        <td>Hw-6</td>
+      </tr>
+
+      <tr> 
+        <td>Week-10 Class-1 11/5</td>
+        <td>ASLR, Seccomp, and Shellcoding <a href="./slides/W10L1.pdf">Notes</a> <a href="./hw/hw8.docx">Hw</a> <a href="./code/non-shell32.s">ShellcodeTemplate</a> <a href="https://youtu.be/_EK1Uk7Ewik">Video</a></td>
+        <td>Hw-7</td>
+      </tr>
+
+      <tr> 
+        <td>Week-10 Class-1 11/7</td>
+        <td>ASLR, Seccomp, and Shellcoding <a href="./slides/W10L1.pdf">Notes</a> <a href="./hw/hw8.docx">Hw</a> <a href="./code/non-shell32.s">ShellcodeTemplate</a> <a href="https://youtu.be/_EK1Uk7Ewik">Video</a></td>
+        <td>Hw-7</td>
+      </tr>
+
+      <tr> 
+        <td>Week-11 Class-1 11/12</td>
+        <td>Format string vulnerability <a href="./slides/W11L1.pdf">Notes</a> <a href="./hw/hw9.docx">Hw</a> <a href="https://youtu.be/trcx0tm37_g">Video</a></td>
+        <td>Hw-8.</td> 
+      </tr>
+
+      <tr> 
+        <td>Week-11 Class-1 11/14</td>
+        <td>Format string vulnerability <a href="./slides/W11L1.pdf">Notes</a> <a href="./hw/hw9.docx">Hw</a> <a href="https://youtu.be/trcx0tm37_g">Video</a></td>
+        <td>Hw-8.</td> 
+      </tr>
+
+      <tr> 
+        <td>Week-12 Class-1 11/19</td> 
+        <td>Format string vulnerability <a href="./slides/W11L1.pdf">Notes</a> <a href="./hw/hw10.docx">Hw</a> <a href="https://youtu.be/oj7cqTnhNyA">Video</a></td>
+        <td>Hw-9</td>
+      </tr>
+
+      <tr> 
+        <td>Week-12 Class-1 11/21</td> 
+        <td>Format string vulnerability <a href="./slides/W11L1.pdf">Notes</a> <a href="./hw/hw10.docx">Hw</a> <a href="https://youtu.be/oj7cqTnhNyA">Video</a></td>
+        <td>Hw-9</td>
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-1 11/26</td>
+        <td>Return-oriented programming <a href="./slides/W13L1.pdf">Notes</a> <a href="./hw/hw11.docx">Hw</a> <a href="https://youtu.be/FhT4Ssxg25Y">Video</a></td>
+        <td>Hw-10</td>
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-1 11/28</td>
+        <td>=== Fall Break ===</td>
+        <td>Hw-10</td>
+      </tr>
+
+      <tr> 
+        <td>Week-14 Class-1 12/3</td>
+        <td>Return-oriented programming and Heap exploitation <a href="./slides/W14L1.pdf">Notes</a> <a href="./hw/hw12.docx">Hw</a> <a href="https://youtu.be/qpGc8pScQ9E">Video</a></td>
+        <td>Hw-11.</td>
+      </tr>
+
+      <tr> 
+        <td>Week-14 Class-1 12/5</td>
+        <td>Return-oriented programming and Heap exploitation <a href="./slides/W14L1.pdf">Notes</a> <a href="./hw/hw12.docx">Hw</a> <a href="https://youtu.be/qpGc8pScQ9E">Video</a></td>
+        <td>Hw-11</td>
+      </tr>          
+
+      <tr> 
+        <td>Final CTF 12/13 7:15pm-10:15pm Davis 101</td>
+        <td><a href="./ctf/final.docx">FinalCTF</a></td>
+        <td></td>
+      </tr>             
+    </tbody>
+  </table>
+
+<h2>Resources</h2>
+  <p><a href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">GDB Cheat Sheet</a> <a href="https://tmuxcheatsheet.com/">Tmux Cheet Sheet</a> <a href="https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf">x64 Cheat Sheet</a> <a href="https://trailofbits.github.io/ctf/vulnerabilities/references/X86_Win32_Reverse_Engineering_Cheat_Sheet.pdf">x32 Cheat Sheet</a> <a href="https://pbs.twimg.com/media/B6wdSlECIAAPO4B?format=png&name=4096x4096">x32 Cheat Sheet</a> <a href="https://github.com/oowekyala/arm-cheatsheet/blob/master/arm-cheatsheet.pdf">ARM Cheat Sheet</a> <a href="https://azeria-labs.com/assembly-basics-cheatsheet/">ARM Cheat Sheet 32-bit</a> </p>
+
+</div>
+
+</body></html>
