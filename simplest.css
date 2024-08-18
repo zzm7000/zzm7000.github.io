@@ -13,7 +13,7 @@
     min-width : 60ex;
     padding : 2ex;
     border-width : 3px;
-    border-color : #005bbb;
+    border-color : #C8102E;
     border-style : solid;
     margin-top: 0;
     margin-bottom: 0;
@@ -58,8 +58,8 @@ h2, h3 {
 }
 
 .publications h3 {
-  background: #005bbb;
-  border: 2px solid #005bbb;
+  background: #C8102E;
+  border: 2px solid #C8102E;
 }
 
 a.toggle_link  {
