@@ -1,0 +1,71 @@
+-----------------
+To students
+-----------------
+
+Midterm CTFs Rules:
+
+(1) The two midterm CTFs will take place on 10/15 Wednesday (11:45 AM to 1:25 PM) and 10/17 Thursday (2:50PM - 4:30 PM). Both in Robinson Hall 109.
+
+(2) There is no extension for each CTF. You must submit your solutions to Canvas before the CTF stops.
+
+(3) There will be two challenges on each CTF. The scope of the CTFs include everything from Week-1 to Week 5. There will be no challenges on ASLR or Seccomp.
+
+(4) Download the Word document https://zzm7000.github.io/teaching/2024fallcy5770/ctf/midterm.docx and submit your document to Canvas.
+
+(5) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
+
+(6) The first hacker to capture each flag receives a 10-point ‘first blood’ bonus.
+
+(7) Seats will be randomly assigned.
+
+(8) You must bring a valid photo ID, such as your NEU ID or government ID, to the exam for verification purposes.
+
+(9) Two of the instructors' PhD students/postdocs will proctor the CTF and provide hints.
+
+-------------------
+To proctor
+-------------------
+
+(1) Check everyone's ID and write down students' names on an attendance check sheet.
+
+(2) Ramdomly assign seats at the beginning. The students should be scattered in the first three rows in the classroom.
+
+(3) If you give hints to one student, you must give the same hint to everyone else.
+
+(4) There is another class in the same classroom after the CTF. So we must start on time and finish on time. 
+
+(5) Show a countdown on the screen. Remind students to submit their solutions in the last ten minutes. Late submissions will not be graded.
+
+----
+You
+----
+
+The final is 3.5 hours. And there will be no extension. Please have a countdown on the screen and remind them at least in 30 mins, 10 mins, and 2mins.
+Tomal, please prepare for a random sitting and release 15 mins before the final. The final will be at Davis 101!!
+Tomal, please print out a roster and sitting arrangements. In the final, check each one's ID and mark on the sitting arrangement.
+Everyone else please go around the room to help and proctor.
+
+Final CTF Rules:
+
+(1) The CTF will take place on 12/13 Wed from 7:15 PM to 10:45 PM (no extensions) in Davis 101.
+
+(2) There will be four challenges in the Final CTF. Challenges will be released at 7:15 PM. There challenges are one format string vulnerability (easy), one rop 64 bit (medium/hard; source code provided; Hint: use a "pop rsp ; ret" to pivot the stack), one reverse engineering (easy), one heap exploitation (easy/medium; source code provided)
+
+(3) Download the Word document from https://zzm7000.github.io/teaching/2023fallcse410518/ctf/final.docx and submit your document to UBLearns.
+
+(4) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
+
+(5) The first person to capture each flag receives a 10-point ‘first blood’ bonus.
+
+(5) Seats will be randomly assigned, and the seating plan will be released on UBLearns and Slack 20 minutes before the exam.
+
+(6) You must bring a valid photo ID, such as your UB ID or government ID, to the exam for verification purposes.
+
+----
+You
+----
+
+The final is 3.5 hours. And there will be no extension. Please have a countdown on the screen and remind them at least in 30 mins, 10 mins, and 2mins.
+Tomal, please prepare for a random sitting and release 15 mins before the final. The final will be at Davis 101!!
+Tomal, please print out a roster and sitting arrangements. In the final, check each one's ID and mark on the sitting arrangement.
+Everyone else please go around the room to help and proctor.
