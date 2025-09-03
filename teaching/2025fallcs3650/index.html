@@ -10,7 +10,8 @@
 <body>
 
 <div class="header">
-  <h1>NEU CS 3650 Computer Systems Section 2 (CRN 13026)</h1>
+  <h1>NEU CS 3650 Computer Systems</h1> 
+  <h2>Section 2 (CRN 13026)</h2>
   <h2>T 11:45 am - 1:25 pm, R 2:50 pm - 4:30 pm, Shillman Hall 420</h2>
 </div>
 
@@ -22,75 +23,36 @@
   <dd>Dr. Ziming Zhao</dd>
   <dd>E-mail: z.zhao@northeastern.edu</dd>
   <dd>Homepage: <a href="https://zzm7000.github.io/">https://zzm7000.github.io/</a></dd>
-  <dd>Office hours will be W 4:30 pm - 5:30 pm or by appointment</dd>
-  <dd>177 Huntington (Room 513) or Zoom at <a href="https://northeastern.zoom.us/j/91035198119?pwd=FiItVBAWYm8cPJJwageR8Vv92hCM3D.1">https://northeastern.zoom.us/j/99475115019?pwd=4dMw5mmuLNHHh0LS9CCll93xapoB4o.1</a></dd>
+  <dd>Office hours will be T 2:00 pm - 3:30 pm or by appointment</dd>
+  <dd>177 Huntington (Room 513) or Zoom at <a href="https://northeastern.zoom.us/j/98423457229">https://northeastern.zoom.us/j/98423457229</a></dd>
   <dd>The lecture recordings will be posted online after each class.</dd>
 
 <h3>TA </h3>
-  <dd>???</dd>
-  <dd>E-mail: ???</dd>
+  <dd>Tushin Mallick</dd>
+  <dd>E-mail: mallick.tu@northeastern.edu</dd>
   <dd>Office hours will be ???</dd>
-  <dd>Zoom at <a href="https://northeastern.zoom.us/">https://northeastern.zoom.us/</a></dd>
+  <dd>Zoom at <a href="https://northeastern.zoom.us/j/98423457229">https://northeastern.zoom.us/j/98423457229</a></dd> <br />
 
-<h2>Overview</h2>
+  <dd>Swadeep</dd>
+  <dd>E-mail: lnu.swa@northeastern.edu</dd>
+  <dd>Office hours will be ???</dd>
+  <dd>Zoom at <a href="https://northeastern.zoom.us/j/98423457229">https://northeastern.zoom.us/j/98423457229</a></dd>
+
+<h2>Course Description</h2>
   <dd style="text-align: justify">
-    <p style="text-align: justify">This course is designed to provide students with good understanding of the theories, principles, techniques and tools used for software and system hacking and hardening. Students will study, in-depth, binary reverse engineering, vulnerability classes, vulnerability analysis, exploit and shellcode development, defensive solutions, etc. to understand how to crack and protect native software. In particular, this class covers offensive techniques including stack-based buffer overflow, heap security, format string vulnerability, return-oriented programming, etc. This class also covers defensive techniques including canary, shadow stack, address space layout randomization, control-flow integrity, etc. A key part of studying security is putting skills to the test in practice. Hacking challenges known as Capture The Flag (CTF) competitions are a great way to do this. In this class the progress of students are evaluated by lab assignment and in-class Capture-The-Flag (CTF) competitions.</p>
-    <p style="text-align: justify">Downloads: <a href="syllabus.pdf">Course Syllabus</a></p>
-    <!-- <p style="text-align: justify">Downloads: <a href="https://www.dropbox.com/s/zd6jr4u3xqtf0vm/CSE610VM.zip?dl=0">Virtual Machine</a></p> -->
+    <p style="text-align: justify">This course introduce students the basic ideas of the design principles, challenges, and solutions involved in building operating systems. An operating system serves as a middleware layer, acting as a critical interface between hardware and user applications. It abstracts the complexity of underlying hardware components and provides a consistent and efficient environment for applications to execute, without requiring direct management of low-level system details.
+
+    To this end, the course also covers the C programming language and assembly language using the x86 architecture. Topics include virtual memory, the interface between assembly and high-level languages such as call frames and pointers, the use of system calls and systems programming to demonstrate interaction with the operating system, and the core structures of an operating system, including application interfaces, processes, threads, synchronization, interprocess communication, deadlock, memory management, file systems, and input/output control.
+
+    The course emphasizes three core concepts fundamental to operating systems: virtualization, concurrency, and persistence. Through these principles, students gain practical knowledge of how operating systems perform tasks such as CPU scheduling, memory management, persistent file storage, interrupt handling, and input/output management.</p>
   </dd>
 
-Jan. 6 Introduction, The UNIX process table xv6: proc.h, proc.c, vm.c
-Jan. 13 UNIX syscalls; C pointers class lectures, ostep.org: Ch. 4, 5
-Jan. 20 UNIX shell, fork/exec/wait, fd’s class lectures, ostep.org: Ch 39.1–39.6
-Jan. 27 More UNIX Process Table; virt. mem. page tables
-Feb. 3 Assembly/Machine Language see course web page and green card (RISC-V ref.)
-Feb. 10 Assembly/Machine Language (cont.), symbol table
-Feb. 17 Files, Cache (direct, set assoc.) ostep.org: Ch. 39, 40; Ch. 15; xv6: file.h
-Feb. 24 Cache, Virtual Memory; MMU/TLB ostep.org: Ch. 15, 18, 19
-Mar. 3 Spring Break
-Mar. 10 Mid-term
-Mar. 17 Basics of POSIX threads ostep.org: Ch. 26, 27.1, 27.2
-Mar. 24 Process synchronization, Locks (mutex, semaphore) ostep.org: Ch. 27.3, 28, 30, 31
-Mar. 31 Model checking of multi-threaded programs
-Apr. 7 Condition variables, read-write locks
-Apr. 14 Finish model checking and threads; review for final (Tuesday is the last day of class.)
-Apr. 18 Final Exam (check the Web for actual day)
+<h2>Prerequisites</h2>
 
-1.1 Class overview (why OS)
-1.2 Background: How to use the experiement environment
-1.2 Background: C, RISC-V (architecture and assembly)
-2.1 Background: C, RISC-V (architecture and assembly) 
-OS interfaces [xv6 C1] ostep.org: Ch. 4, 5 ostep.org: Ch 39.1–39.6
-OS orgazinations [xv6 C2]
-2.2 Process (Concept) [xv6: proc.h, proc.c, vm.c]
-Virtual Memory (Address transaltion, segmentation, paging, TLB, cache) Ch. 15, 18, 19
-Interrrupt and device drivers
-I/O devices
-Files ostep.org: Ch. 39, 40; Ch. 15; xv6: file.h
-Concurrency Process synchronization, Locks (mutex, semaphore) ostep.org: Ch. 27.3, 28, 30, 31
-
-
-Should be 13 or 14 weeks of class and a midterm week
-
-Class overview and logistics 1/2 week
-
-A crash course on C 1/2 week
-
-A crash course on RISC-V architecture and assembly 1/2 week
-
-An overview of Operating Systems 1/2 week 
-OS interfaces [xv6 C1] ostep.org: Ch. 4, 5 ostep.org: Ch 39.1–39.6
-OS orgazinations [xv6 C2]
-
-Processes [2 weeks]
-
-Memory [2 weeks]
-
-Interrupt [2 weeks]
-
-File [2 week]
-
-Concureency [2 weeks] 
+    <ul>
+      <li>CS 2510 (Fundamentals of Computer Science II) or EECE 2560 (Fundamentals of Engineering Algorithms).</li> 
+      <li>Students should have experience with programming in high-level languages such as Java, Go, JavaScript, or Rust, as well as some knowledge of algorithms, data structures, and software engineering principles.</li>
+    </ul>
 
   <h2>Tentative Schedule </h2>
   <center>
@@ -99,187 +61,251 @@ Concureency [2 weeks]
     <tbody>
       <tr> 
         <th width="180"><font color="#000099">Date</font></th>
-        <th width="925"><font color="#000099">Topic</font></th>
-        <th width="235"><font color="#000099">Reading</font></th>
-        <th width="235"><font color="#000099">Dues</font></th>        
+        <th width="325"><font color="#000099">Slides</font></th>
+        <th width="535"><font color="#000099">Reading</font></th>
+        <th width="235"><font color="#000099">Remarks</font></th>        
       </tr>
 
 <!--        <td>&nbsp;Overview and Background Knowledge <a href="slides/.pdf">Slides</a> <a href="code/.zip">Code</a> <a href="hw/.zip">HW1</a> <a href="">Video UB Cloud</a> <a href="">YouTube</a> <a href="">Youku</a></td> -->
 
       <tr> 
-        <td>Week-1 Class-1 9/5</td>
-        <td>Overview and Background Knowledge <a href="slides/L1 .pdf">L1 Class Overview</a> <a href="slides/L2 Background Knowledge.pdf">L2 Background Knowledge</a> <a href="hw/hw1.docx">Hw</a> <a href="https://youtu.be/o_s8Zj-Bb2g">Video</a> </td>
-        <td>&nbsp;</td>
-      </tr>
-
-      <tr> 
-        <td>Week-2 Class-1 9/10</td>
-        <td>Background Knowledge <a href="https://youtu.be/JgcZIp3Vl8s">Video</a></td>
+        <td>Week-1 Class-1 9/4</td>
+        <td>Class Overview and Intro to Computer Systems</td>
+        <td>OSTEP ch2</td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-2 Class-2 9/12</td>
-        <td>Buffer Overflow (Background and Local variables) <a href="slides/L3 Buffer Overflow (Local Variables).pdf">L3 Buffer Overflow (Local Variables)</a> <a href="https://youtu.be/hc-DO1jP7pg">Video</a> </td>
+        <td>Week-2 Class-1 9/9</td>
+        <td>Intro to Computer Systems</td>
         <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-2 Class-2 9/11</td>
+        <td>x86/x86-64 Architecture and Assembly</td>
+        <td>DIS ch6, DIS ch7</td>
+        <td>Assignment 1 out</td>
       </tr>      
 
       <tr> 
-        <td>Week-3 Class-1 9/17</td> 
-        <td>Buffer Overflow (Local variables) <a href="hw/hw2.docx">Hw</a> <a href="https://youtu.be/b1TDnP0JKkg">Video</a> </td>
-        <td>Hw-1</td>
-      </tr>
-
-      <tr> 
-        <td>Week-3 Class-2 9/19</td> 
-        <td>Buffer Overflow (Return address) <a href="slides/L4 Buffer Overflow (RET address).pdf">L4 Buffer Overflow (Return address)</a> <a href="https://www.youtube.com/watch?v=wPTnd3ThODQ">Video</a> </td>
+        <td>Week-3 Class-1 9/16</td> 
+        <td>x86/x86-64 Architecture and Assembly</td>
+        <td></td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-4 Class-1 9/24</td>
-        <td>Buffer Overflow (Return to Shellcode) <a href="slides/L5 Buffer Overflow (Return to Shellcode).pdf">L5 Buffer Overflow (Return to Shellcode)</a> <a href="https://youtu.be/2ta0yWNwBvs">Video</a> <a href="hw/hw3.docx">Hw</a> </td>
-        <td>Hw-2</td>
+        <td>Week-3 Class-2 9/18</td> 
+        <td>Memory, the Stack, Recursion</td>
+        <td>DIS 1.4.1, DIS 2.1, DIS 7.5</td>
+        <td>A2 out</td>
       </tr>
 
       <tr> 
-        <td>Week-4 Class-2 9/26</td>
-        <td>Buffer Overflow (Frame Pointer Attack) <a href="slides/L6 Buffer Overflow (Frame Pointer Attack).pdf">L6 Buffer Overflow (Frame Pointer Attack)</a> <a href="https://youtu.be/cXYMoeyt_u4">Video</a></td>
+        <td>Week-4 Class-1 9/23</td>
+        <td>Memory, the Stack, Recursion</td>
         <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-4 Class-2 9/25</td>
+        <td>Intro to C</td>
+        <td>DIS ch1, DIS ch2, Stanford's Essential C</td>
+        <td>A3 out</td>
       </tr>      
 
       <tr> 
-        <td>Week-5 Class-1 10/1</td>
-        <td>Buffer Overflow (DEP, Shadow Stack) <a href="slides/L7 Buffer Overflow (DEP, Shadow Stack, Stack Canary).pdf">L7 Buffer Overflow (DEP, Shadow Stack, Stack Canary)</a> <a href="https://youtu.be/dD8Sal1KxiY">Video</a> <a href="hw/hw4.docx">Hw</a> </td>
-        <td>Hw-3</td>
-      </tr>
-
-      <tr> 
-        <td>Week-5 Class-2 10/3</td>
-        <td>Buffer Overflow (Stack Canary) <a href="https://youtu.be/g2dVnPHEJR4">Video</a> </td>
+        <td>Week-5 Class-1 9/30</td>
+        <td>Intro to C</td>
+        <td></td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-6 Class-1 10/8</td>
-        <td>ASLR and Seccomp <a href="slides/L8 ASLR and Seccomp.pdf">L8 ASLR and Seccomp</a> <a href="https://youtu.be/OKgVIfk-yDg">Video</a> <a href="hw/hw5.docx">Hw</a> </td>
-        <td>Hw-4</td>
+        <td>Week-5 Class-2 10/2</td>
+        <td>Processes</td>
+        <td>OSTEP ch3-6; xv6: proc.h, proc.c</td>
+        <td>A4 out</td>
       </tr>
 
       <tr> 
-        <td>Week-6 Class-2 10/10</td>
-        <td>Shellcoding <a href="slides/L9 Shellcoding.pdf">L9 Shellcoding</a> <a href="https://youtu.be/DMJPuq9p4XY">Video</a> </td>
-        <td>The instructor will be out of town for a conference. The class will be delivered online at the office hour Zoom link at 10/11 4:35PM</td>
-      </tr>
-
-      <tr> 
-        <td>Week-7 Class-1 10/15</td>
-        <td>*** Midterm CTF Part-1*** <a href="ctf/midterm.docx">Midterm-1</a> </td>
-        <td>Hw-5</td>
-      </tr>
-
-      <tr> 
-        <td>Week-7 Class-2 10/17</td>
-        <td>*** Midterm CTF Part-2*** <a href="ctf/midterm-2.docx">Midterm-2</a> </td>
+        <td>Week-6 Class-1 10/7</td>
+        <td>Processes</td>
         <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-6 Class-2 10/9</td>
+        <td>File I/O</td>
+        <td>OSTEP ch39; xv6: file.h</td>
+        <td>Project 1 out</td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-1 10/14</td>
+        <td>File I/O</td>
+        <td></td>
+        <td>The instructor will be out of town for a conference. The class will be delivered online.</td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-2 10/16</td>
+        <td>Virtual Memory</td>
+        <td>OSTEP ch15-19; xv6: vm.c</td>
+        <td>A5 out <br /> The instructor will be out of town for a conference. The class will be delivered online.</td>
       </tr>      
 
       <tr> 
-        <td>Week-8 Class-1 10/22</td>
-        <td>Buffer Overflow (Real-world examples) <a href="slides/L10 Buffer Overflow (Real-world Examples).pdf"> L10 Buffer Overflow (Real-world Examples)</a> <a href="https://youtu.be/WNb3YBvqJIs">Video</a> <a href="hw/hw6.docx">Hw6</a> <a href="hw/hw7.docx">Hw7</a> </td>
+        <td>Week-8 Class-1 10/21</td>
+        <td>Virtual Memory</td>
+        <td></td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-8 Class-2 10/24</td>
-        <td>Format string vulnerability <a href="slides/L11 Format String (Memory Read).pdf">L11 Format String (Memory Read)</a> <a href="https://youtu.be/33OazsNhdVg">Video</a> </td>
+        <td>Week-8 Class-2 10/23</td>
+        <td>Virtual Memory</td>
+        <td></td>
+        <td>A6 out <br />Project 1 due<br /></td>
+      </tr>
+
+      <tr> 
+        <td>Week-9 Class-1 10/28</td>
+        <td>Concurrency</td>
+        <td>OSTEP ch25-28</td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-9 Class-1 10/29</td>
-        <td>Format string vulnerability <a href="slides/L12 Format String (Memory Write).pdf">L12 Format String (Memory Write)</a> <a href="hw/hw8.docx">Hw</a> <a href="https://youtu.be/ZP36QWI0m9s">Video</a> </td>
-        <td>Hw-6 and Hw-7</td>
+        <td>Week-9 Class-2 10/30</td>
+        <td>Concurrency</td>
+        <td></td>
+        <td>A7 out</td>
       </tr>
 
       <tr> 
-        <td>Week-9 Class-2 10/31</td>
-        <td>Format string vulnerability <a href="https://youtu.be/kTq84GsyT9I">Video</a> </td>
+        <td>Week-10 Class-1 11/4</td>
+        <td>Concurrency</td>
+        <td></td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-10 Class-1 11/5</td>
-        <td>Return-oriented programming <a href="slides/L13 Return-oriented Programming.pdf">L13 Return-oriented Programming</a> <a href="hw/hw9.docx">Hw</a> <a href="https://youtu.be/484WBFr_hRA">Video</a> </td>
-        <td>Hw-8</td>
-      </tr>
-
-      <tr> 
-        <td>Week-10 Class-2 11/7</td>
-        <td>Return-oriented programming <a href="https://youtu.be/Ucr24lJSoRw">Video</a> </td>
+        <td>Week-10 Class-2 11/6</td>
+        <td>Concurrency</td>
         <td></td>
+        <td>A8 out</td>
       </tr>
 
       <tr> 
-        <td>Week-11 Class-1 11/12</td>
-        <td>Return-oriented programming <a href="hw/hw10.docx">Hw</a> <a href="https://youtu.be/wQ_UUIk8BX8">Video</a> </td>
-        <td>Hw-9</td> 
-      </tr>
-
-      <tr> 
-        <td>Week-11 Class-2 11/14</td>
-        <td>Heap exploitation <a href="slides/L14 Heap Exploitation.pdf">L14 Heap Exploitation</a> <a href="https://youtu.be/a6w7Y1tQtTU">Video</a> </td>
+        <td>Week-11 Class-1 11/11</td>
+        <td>Interrupt</td>
         <td></td> 
-      </tr>
-
-      <tr> 
-        <td>Week-12 Class-1 11/19</td> 
-        <td>Heap exploitation <a href="hw/hw11.docx">Hw</a> <a href="https://youtu.be/fLoUTlxadcQ">Video</a> </td>
-        <td>Hw-10</td>
-      </tr>
-
-      <tr> 
-        <td>Week-12 Class-2 11/21</td> 
-        <td>Cache and cache side-channel <a href="slides/L15 Cache and cache side-channel.pdf">L15 Cache and cache side-channel</a> <a href="https://youtu.be/3ybdTxhiPkg">Video</a> </td>
         <td></td>
       </tr>
 
       <tr> 
-        <td>Week-13 Class-1 11/26</td>
-        <td>Cache and others <a href="hw/hw12.docx">Hw12</a> <a href="hw/hw13.docx">Hw13</a> </td>
-        <td>Hw-11. The class will be delivered online as this is the day before Thanksgiving.</td>
+        <td>Week-11 Class-2 11/13</td>
+        <td>Interrupt</td>
+        <td></td> 
+        <td>Project 2 out</td>
       </tr>
 
       <tr> 
-        <td>Week-13 Class-2 11/28</td>
+        <td>Week-12 Class-1 11/18</td> 
+        <td>Booting xv6</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-12 Class-2 11/20</td> 
+        <td>Booting xv6</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-1 11/25</td>
+        <td>File Systems</td>
+        <td>OSTEP ch39-41</td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-2 11/27</td>
         <td>=== Fall Break (No class) ===</td>
         <td></td>
+        <td>Fall break starts on 11/26/2025</td>
       </tr>
 
       <tr> 
-        <td>Week-14 Class-1 12/3</td>
-        <td>***FinalCTF Part-1*** <a href="ctf/final.docx">Final-1</a></td>
-        <td>Hw-12, Hw-13</td>
-      </tr>
-
-      <tr> 
-        <td>Week-14 Class-2 12/5</td>
-        <td>***FinalCTF Part-2***</td>
+        <td>Week-14 Class-1 12/2</td>
+        <td>File Systems</td>
+        <td>OSTEP ch42-43</td>
         <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-14 Class-2 12/4</td>
+        <td>Wrap-up</td>
+        <td></td>
+        <td>Project 2 due</td>
       </tr>         
                    
     </tbody>
   </table>
 
 <h2>Reading Materials</h2>
-  <a href="https://github.com/mit-pdos/xv6-riscv">MIT PDOS xv6-riscv source code </a> (Open source) <br />
-  <a href="https://pdos.csail.mit.edu/6.1810/2024/xv6/book-riscv-rev4.pdf"> xv6 book RISC-V edition </a> (Free) <br />
-  <a href="https://diveintosystems.org/">Dive Into Systems</a> (Free) <br />
-  <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces (aka OSTEP)</a> (Free) <br />
-  <a href="https://pdos.csail.mit.edu/6.828/2017/xv6/book-rev10.pdf">xv6 Text Revision 10</a> (Free) <br />
-  <a href="https://www.amazon.com/Computer-Systems-Programmers-Perspective-3/dp/9332573905/ref=mt_paperback?_encoding=UTF8&me=">Computer Systems: A Programmer's Perspective, 3 Edition</a> <br /> <br />
-  https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/HandP_RISCV.pdf
+
+    <ul>
+      <li>We will use the free <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces (OSTEP)</a> book by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau as our primary text for learning operating system concepts. Additionally, we will use the xv6 x86 version (<a href="https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf">book revision 11</a>, <a href="https://github.com/mit-pdos/xv6-public">code</a>) as our implementation platform to study operating system internals. We we also be occasionally using the free online textbook <a href="https://diveintosystems.org/">Dive Into Systems</a>.</li>
+      <li>Other books: <a href="https://www.amazon.com/Computer-Systems-Programmers-Perspective-3/dp/9332573905/ref=mt_paperback?_encoding=UTF8&me=">Computer Systems: A Programmer's Perspective, 3 Edition</a></li> 
+    </ul>
+
+<h2>Exams</h2>
+
+  <p>There will be no exams.</p>
+
+<h2>Grading</h2>
+
+  <p>This class is primarily programming-based. Therefore, you will mostly be judged on the quality and correctness of your code.</p>
+
+<h2>Late Policy</h2>
+
+  <p>Assignments turned in late will receive a 10% penalty per day after the deadline. One second after the deadline is one day late.</p>
+
+<h2>AI Policy</h2>
+
+  <p>The usage of generative AI models is allowed in this course under certain constraints, unless specifically stated otherwise.</p>
+
+  <ol>
+    <li>Generative AI may be used to aid programming, but may not be used for writing or documentation.</li>
+    <li>Any use of Generative AI must come with attribution including the specific model, date/time of use, and exact prompts. Failure to do so will be considered plagiarism.</li>
+    <li>Generative AI should be used not to get assignments done as quickly as possible but rather to facilitate learning.</li>
+  </ol>
+
+<h2>Cheating Policy</h2>
+
+  <p>It's ok to ask your peers about the concepts, algorithms, or approaches needed to do the assignments. We encourage you to do so; both giving and receiving advice will help you learn. However, what you turn in must be your own, or for projects, your group's own work. Looking at or copying code or homework solutions from other people or the Web is strictly prohibited. In particular, looking at other solutions (e.g., from other groups or students who previously took the course) is a direct violation. Projects must be entirely the work of the students turning them in, i.e., you and your group members. If you have any questions about using a particular resource, ask the course staff or post a question to the class forum. All students are subject to the <a href="http://www.northeastern.edu/osccr/academichonesty.html">Northeastern University's Academic Integrity Policy</a>. Per Khoury College policy, all cases of suspected plagiarism or other academic dishonesty must be referred to the Office of Student Conduct and Conflict Resolution (OSCCR). This may result is deferred suspension, suspension, or expulsion from the university.</p>
+
+<h2>Accommodations for Students with Disabilities</h2>
+
+  <p>If you have a disability-related need for reasonable academic accommodations in this course and have not yet met with a Disability Specialist, please visit <a href="www.northeastern.edu/drc">www.northeastern.edu/drc</a> and follow the outlined procedure to request services. If the Disability Resource Center has formally approved you for an academic accommodation in this class, please present the instructor with your “Professor Notification Letter” at your earliest convenience, so that we can address your specific needs as early as possible.</p>
+
+<h2>Title IX</h2>
+
+  <p>Title IX makes it clear that violence and harassment based on sex and gender are Civil Rights offenses subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, etc. If you or someone you know has been harassed or assaulted, you can find the appropriate resources <a href="http://www.northeastern.edu/oidi/titleix/">here</a>.</p>
+
+<h2>Acknowledgements</h2>
+
+  <p>Thank you to Christo Wilson, Cheng Tan, Ji-Yong Shin, Ferdinand Vesily, Alden Jackson, Ben Weintraub, Gene Cooperman, and Peter Desnoyers, from whom much of this content is derived.</p> <br />
 
 </div>
 
-</body></html>
+</body>
+</html>
