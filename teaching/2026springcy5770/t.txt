@@ -1,0 +1,14 @@
+Midterm CTF Rules:
+
+(1) The CTF will take place on 10/23 Monday from 5:00 PM to 7:50 PM in NSC 201.
+
+(2) There will be four challenges in the Midterm CTF. Challenges will be released at 5 pm.
+
+(3) Download the Word document from https://zzm7000.github.io/teaching/2023fallcse410518/ctf/midterm.docx and submit your document to UBLearns.
+
+(4) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
+
+(5) Seats will be randomly assigned, and the seating plan will be released on UBLearns and Slack 20 minutes before the exam.
+
+(6) You must bring a valid photo ID, such as your UB ID or government ID, to the exam for verification purposes.
+
