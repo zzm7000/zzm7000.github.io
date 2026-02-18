@@ -2,25 +2,23 @@
 To students
 -----------------
 
-Midterm CTFs Rules:
+Midterm CTF Rules:
 
-(1) The two midterm CTFs will take place on 10/15 Wednesday (11:45 AM to 1:25 PM) and 10/17 Thursday (2:50PM - 4:30 PM). Both in Robinson Hall 109.
+(1) The midterm CTF will take place on Feb 25 Wednesday (6:00 pm - 9:20 pm) in Knowles Center 010.
 
 (2) There is no extension for each CTF. You must submit your solutions to Canvas before the CTF stops.
 
-(3) There will be two challenges on each CTF. The scope of the CTFs include everything from Week-1 to Week 5. There will be no challenges on ASLR or Seccomp.
+(3) There will be four challenges in the CTF. The scope of the CTFs include everything from Week-1 to Week-5. There will be no challenges on ASLR, Seccomp, or shellcode development.
 
-(4) Download the Word document https://zzm7000.github.io/teaching/2024fallcy5770/ctf/midterm.docx and submit your document to Canvas.
+(4) Download the Word document https://zzm7000.github.io/teaching/2026springcy5770/ctf/midterm.docx and submit your document to Canvas.
 
-(5) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
+(5) This is an open-book and internet-enabled CTF. For example, you are allowed to use resources like Google and course recordings. You are also allowed to use pwntools, binary ninja, IDA Pro, etc. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model (LLM) or LLM-based agents, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
 
-(6) The first hacker to capture each flag receives a 10-point ‘first blood’ bonus.
+(6) The first three hackers to capture each flag receives ‘first blood’ bonus points. The winner receives 10 points, second place receives 5 points, and third place receives 3 points.
 
 (7) Seats will be randomly assigned.
 
 (8) You must bring a valid photo ID, such as your NEU ID or government ID, to the exam for verification purposes.
-
-(9) Two of the instructors' PhD students/postdocs will proctor the CTF and provide hints.
 
 -------------------
 To proctor
