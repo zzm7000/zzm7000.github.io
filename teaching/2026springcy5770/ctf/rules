@@ -47,17 +47,17 @@ Final CTF Rules:
 
 (1) The CTF will take place on 4/15 Wednesday (6:00 pm - 9:20 pm) in Knowles Center 010.
 
-(2) There will be four challenges in the Final CTF. Challenges will be released at 7:15 PM. There challenges are one format string vulnerability (easy), one rop 64 bit (medium/hard; source code provided; Hint: use a "pop rsp ; ret" to pivot the stack), one reverse engineering (easy), one heap exploitation (easy/medium; source code provided)
+(2) There will be four challenges in the Final CTF. Challenges will be released at 6 PM.
 
-(3) Download the Word document from https://zzm7000.github.io/teaching/2023fallcse410518/ctf/final.docx and submit your document to UBLearns.
+(3) Download the Word document from https://zzm7000.github.io/teaching/2026springcy5770/ctf/final.docx and submit your document to UBLearns.
 
 (4) This is an open-book and internet-enabled CTF. You are allowed to use resources like Google and course recordings. What you are not allowed to do includes: (a) communicating with anyone other than the instructor and proctors, e.g., posting challenge binaries on hacker forums and ask for exploits or messaging classmates for solutions; (b) using any large language model, e.g., ChatGPT, to identify bugs or generate exploits. Any instances of cheating will be reported to the dean's office.
 
-(5) The first person to capture each flag receives a 10-point ‘first blood’ bonus.
+(5) The first three hackers to capture each flag receives ‘first blood’ bonus points. The winner receives 10 points, second place receives 5 points, and third place receives 3 points.
 
-(5) Seats will be randomly assigned, and the seating plan will be released on UBLearns and Slack 20 minutes before the exam.
+(6) Seats will be randomly assigned.
 
-(6) You must bring a valid photo ID, such as your UB ID or government ID, to the exam for verification purposes.
+(7) You must bring a valid photo ID, such as your NEU ID or government ID, to the exam for verification purposes.
 
 ----
 You
