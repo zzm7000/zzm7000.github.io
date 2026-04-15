@@ -45,7 +45,7 @@ Everyone else please go around the room to help and proctor.
 
 Final CTF Rules:
 
-(1) The CTF will take place on 12/13 Wed from 7:15 PM to 10:45 PM (no extensions) in Davis 101.
+(1) The CTF will take place on 4/15 Wednesday (6:00 pm - 9:20 pm) in Knowles Center 010.
 
 (2) There will be four challenges in the Final CTF. Challenges will be released at 7:15 PM. There challenges are one format string vulnerability (easy), one rop 64 bit (medium/hard; source code provided; Hint: use a "pop rsp ; ret" to pivot the stack), one reverse engineering (easy), one heap exploitation (easy/medium; source code provided)
 
