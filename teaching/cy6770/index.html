@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>NEU CY 6770 Advanced Software Vulnerabilities and Security</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="class.css" media="screen">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>NEU CY 6770 Advanced Software Vulnerabilities and Security</h1>
+  <h2>TBD Semester, TBD Day/Time, TBD Location</h2>
+</div>
+
+
+<div class="main">
+
+<h2>General Information</h2>
+<h3>Instructor</h3>
+  <dd>Dr. Ziming Zhao</dd>
+  <dd>E-mail: z.zhao@northeastern.edu</dd>
+  <dd>Homepage: <a href="https://zzm7000.github.io/">https://zzm7000.github.io/</a></dd>
+  <dd>Office hours: TBD or by appointment</dd>
+  <dd>177 Huntington (Room 513) or Zoom at <a href="https://northeastern.zoom.us/j/97094911698?pwd=oQQlhcSGDi6X8S7GTPzxLUo3h2Rh1w.1">https://northeastern.zoom.us/j/97094911698?pwd=oQQlhcSGDi6X8S7GTPzxLUo3h2Rh1w.1</a></dd>
+  <dd>The lecture recordings will be posted online after each class.</dd>
+
+<h3>TA</h3>
+  <dd>TBD</dd>
+
+<h3>Past Offerings</h3>
+  <dd>Fall 2027</dd>
+
+
+<h2>Overview</h2>
+  <dd style="text-align: justify">
+    <p style="text-align: justify">This course is a graduate-level deep dive into the science and engineering of software vulnerabilities and security analysis. Students will study vulnerability classes, program analysis techniques, and automated security tools from both offensive and defensive perspectives. Topics include vulnerability taxonomy (CWE/CVE/CVSS), compiler infrastructure (LLVM IR, passes, sanitizers), dynamic analysis (Valgrind, AddressSanitizer), coverage-guided fuzzing (AFL), symbolic execution (KLEE), static analysis (CodeQL), binary analysis (angr), and emerging areas such as kernel fuzzing, hypervisor security, and AI-driven security analysis. A central component of the course is a semester-long research project in which students identify an open problem, conduct a literature review, implement a prototype, and prepare a paper draft targeting a research venue.</p>
+    <p style="text-align: justify">Downloads: <a href="slides/L1 Class Overview.pdf">Course Overview Slides</a></p>
+  </dd>
+
+  <h2>Tentative Schedule</h2>
+  <center>
+  </center>
+  <table border="1">
+    <tbody>
+      <tr>
+        <th width="180"><font color="#000099">Week</font></th>
+        <th width="925"><font color="#000099">Topic</font></th>
+        <th width="235"><font color="#000099">Dues</font></th>
+      </tr>
+
+      <tr>
+        <td>Week 1</td>
+        <td>Class Overview, Vulnerability Landscape &amp; Compiler Infrastructure <a href="slides/L1_class_overview.pdf">L1 Class Overview</a> <a href="slides/L2_vuln_overview.pdf">L2 Vulnerability Overview</a> <a href="slides/L3_compiler_infra.pdf">L3 Compiler Infrastructure for Security Analysis</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 2</td>
+        <td>Compiler Passes &amp; Dynamic Binary Instrumentation <a href="slides/L4_compiler_passes.pdf">L4 Program Transformation via Compiler Passes</a> <a href="slides/L5_dbi.pdf">L5 Dynamic Binary Instrumentation</a></td>
+        <td>Lab 1</td>
+      </tr>
+
+      <tr>
+        <td>Week 3</td>
+        <td>Emulator &amp; Hypervisor Security <a href="slides/L6_emulator.pdf">L6 Emulator</a> <a href="slides/L7_hypervisor.pdf">L7 Hypervisor</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 4</td>
+        <td>Fuzzing I <a href="slides/L8_fuzzing_I.pdf">L8 Fuzzing I</a></td>
+        <td>Lab 2</td>
+      </tr>
+
+      <tr>
+        <td>Week 5</td>
+        <td>Fuzzing II <a href="slides/L9_fuzzing_II.pdf">L9 Fuzzing II</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 6</td>
+        <td>Sanitizers: AddressSanitizer &amp; Friends <a href="slides/L10_sanitizers.pdf">L10 Sanitizers</a></td>
+        <td>Lab 3</td>
+      </tr>
+
+      <tr>
+        <td>Week 7</td>
+        <td>Symbolic Execution <a href="slides/L11_symex.pdf">L11 Symbolic Execution</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 8</td>
+        <td>Static Analysis &amp; CodeQL <a href="slides/L12_static_analysis.pdf">L12 Static Analysis</a></td>
+        <td>Project Proposal</td>
+      </tr>
+
+      <tr>
+        <td>Week 9</td>
+        <td>Kernel Fuzzing with Syzkaller <a href="slides/L13_syzkaller.pdf">L13 Syzkaller</a></td>
+        <td>Lab 4</td>
+      </tr>
+
+      <tr>
+        <td>Week 10</td>
+        <td>AI and Security <a href="slides/L14_ai_security.pdf">L14 AI Security</a></td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 11</td>
+        <td>Research Sprint &mdash; Project Implementation</td>
+        <td>Lab 5 &mdash; Project Progress Update</td>
+      </tr>
+
+      <tr>
+        <td>Week 12</td>
+        <td>Research Sprint &mdash; Project Implementation</td>
+        <td>Paper Draft Due</td>
+      </tr>
+
+      <tr>
+        <td>Week 13</td>
+        <td>Research Sprint (continued)</td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 14</td>
+        <td>Project Presentations (I)</td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>Week 15</td>
+        <td>Project Presentations (II) &mdash; Final Discussion</td>
+        <td>Final Paper Due</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+<h2>Resources</h2>
+  <p>
+    <a href="https://llvm.org/docs/LangRef.html">LLVM Language Reference Manual</a>
+    &nbsp;|&nbsp;
+    <a href="https://valgrind.org/docs/manual/manual.html">Valgrind User Manual</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/google/AFL">AFL GitHub</a>
+    &nbsp;|&nbsp;
+    <a href="https://klee-se.org/docs/">KLEE Documentation</a>
+    &nbsp;|&nbsp;
+    <a href="https://codeql.github.com/docs/">CodeQL Documentation</a>
+    &nbsp;|&nbsp;
+    <a href="https://angr.io/">angr Documentation</a>
+    &nbsp;|&nbsp;
+    <a href="https://nvd.nist.gov/">NVD (CVE/CVSS)</a>
+    &nbsp;|&nbsp;
+    <a href="https://cwe.mitre.org/top25/">CWE Top 25</a>
+  </p>
+
+</div>
+
+</body></html>
